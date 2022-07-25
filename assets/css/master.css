@@ -1,0 +1,57 @@
+.navbar .nav-item{
+    transition: 0.5s;
+}
+
+.navbar .nav-item:hover {
+    background: #111;
+   
+}
+.navbar .navbar-brand{
+    transition: 0.5s;
+}
+.navbar .navbar-brand:hover{
+   
+    transform: scale(1.1);
+    
+}
+.con {
+    position: relative;
+    text-shadow: 7px 4px 4px black ;
+    height: 65vh;
+    background-image: url(../img/car1.webp);
+    background-size: cover;
+    
+}
+.con2{
+    height: 40vh;
+    text-align: center;
+    padding-top: 50px;
+    background-color:rgba(202, 202, 202, 0.411) ;
+    text-shadow: 6px 4px 3px black;
+    transition: 0.5s;
+}
+.con2:hover{
+    transform: scale(1.1);
+    letter-spacing: 2px;
+}
+.crad-img-top{
+    background-size: cover;
+    width: 100%;
+    height: 50vh;
+    transition: 0.005s;
+}
+.crad-img-top:hover {
+    transform: scale(1.04);
+}
+.car{
+    text-shadow: 6px 4px 3px black;
+    margin: 50px 0;
+    transition: 0.5s;
+}
+.car:hover{
+    letter-spacing: 2px;
+}
+#footer-brand{
+    font-size: 50px;
+}
+
