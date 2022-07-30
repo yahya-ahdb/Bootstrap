@@ -61,4 +61,11 @@
     border-radius: 40px;
     display: none;
 }
-
+.carousel{
+    background-size:cover;
+    width: 100%;
+    height:100vh ;
+}
+.card-title{
+    text-shadow: 6px 4px 7px black;
+}
