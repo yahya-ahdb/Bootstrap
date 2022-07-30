@@ -10,9 +10,9 @@
 </head>
 <body>
   
-
-    <nav class="navbar navbar-dark bg-dark sticky-top">
-        <div class="container">
+   
+    <nav  class="navbar navbar-dark bg-dark sticky-top"  >
+        <div  class="container">
           <a class="navbar-brand" href="#"><b class="text-primary" >NEW <small class="text-danger" >CARS</small></b></a>
           <span class="navbar-brand"  id="dark" ><ion-icon name="contrast-outline"></ion-icon></span>
           <span class="navbar-brand"  id="white" ><ion-icon name="contrast-outline"></ion-icon></span>
@@ -48,8 +48,8 @@
                     <b>Cars</b>
                   </a>
                   <ul class="dropdown-menu dropdown-menu-dark">
-                    <li><a class="dropdown-item" href="#bmw">BMW</a></li>
-                    <li><a class="dropdown-item" href="#mar">Mercedes</a></li>
+                    <li><a class="dropdown-item text-primary" href="#bmw"><b>BMW</b></a></li>
+                    <li><a class="dropdown-item text-danger" href="#mar"><b>Mercedes</b></a></li>
                     <li>
                       
                   </ul>
@@ -60,13 +60,13 @@
           </div>
         </div>
         </nav>
-      </nav>
+       
       <!-- body -->
       <button id="btnscroll" ><ion-icon name="arrow-up-outline"></ion-icon></button>
     <div class="con"> 
       <h2 class="container" ><b>Welcome in <b class="text-primary" >NEW <small class="text-danger" >CARS</small></b></h5></b></h2>
        <div class="text-center mt-5 " > 
-        <button class="btn btn-warning" data-bs-toggle="modal"data-bs-target="#sing">Sing in</button>
+        <button class="btn btn-warning" data-bs-toggle="modal"data-bs-target="#sing"><b>Sing in</b></button>
        </div>
         <!--modal  -->
         <div id="sing" class="modal">
@@ -74,7 +74,7 @@
                 <div class="modal-content">
                     <div class="modal-header">
                         <h5 class="modal-title">
-                            Sing in
+                            <b>Sing in</b>
                         </h5>
                         <button class="btn-close" data-bs-dismiss="modal" ></button>
                     </div>
@@ -82,14 +82,14 @@
                         <div class="container">
                             <form class="w-5" action="" method="post">
           
-                                <input class="form-control" type="email" placeholder="Name@gmail.com" required  >
+                                <input class="form-control mt-3 " type="email" placeholder="Name@gmail.com" required  >
                                 <br>
                                 
                                 <input class="form-control" type="password"  minlength="8" maxlength="16" placeholder="password" required  >
                                 <br>
-                                <button class="btn btn-warning" type="submit" ><b>Submit</b></button>
-                                <button class="btn btn-warning" type="reset"  ><b>Reset</b></button>
-                                <button class="btn btn-secondary"data-bs-dismiss="modal" ><b>Close</b></button>
+                                <button class="btn btn-warning mb-3" type="submit" ><b>Submit</b></button>
+                                <button class="btn btn-warning mb-3" type="reset"  ><b>Reset</b></button>
+                                <button class="btn btn-secondary mb-3"data-bs-dismiss="modal" ><b>Close</b></button>
                               </form>
                 </div>
                 </div>
@@ -109,7 +109,8 @@
     </div>
 
     <h1 id="bmw" class="car text-center text-warning " ><b>BMW</b></h1>
-
+    <tbody>
+      
     <div class="container">
     <div class="row">
        
@@ -117,7 +118,7 @@
             <div class="card">
                 <img src="assets/img/1.jpg" class="crad-img-top">
                 <h3 class="card-title text-danger"><b>BMW</b></h3>
-                <div class="card-body">NEW CARS</div>
+                <div class="card-body"><b>NEW CARS</b></div>
                 <button  onclick="buy()" class="btn btn-danger" >Buy now</button>
             </div>
         </div>
@@ -125,7 +126,7 @@
             <div class="card">
                 <img src="assets/img/2.jpg" class="crad-img-top">
                 <h3 class="card-title text-warning "><b>BMW</b></h3>
-                <div class="card-body">NEW CARS</div>
+                <div class="card-body"><b>NEW CARS</b></div>
                 <button  onclick="buy()" class="btn btn-danger" >Buy now</button>
             </div>
         </div>
@@ -133,7 +134,7 @@
             <div class="card">
                 <img src="assets/img/3.avif" class="crad-img-top">
                 <h3 class="card-title text-primary "><b>BMW</b></h3>
-                <div class="card-body">NEW CARS</div>
+                <div class="card-body"><b>NEW CARS</b></div>
                 <button  onclick="buy()" class="btn btn-danger" >Buy now</button>
             </div>
         </div>
@@ -148,7 +149,7 @@
                 <div class="card">
                     <img src="assets/img/3.jpg" class="crad-img-top">
                     <h3 class="card-title text-danger"><b>Mercedes</b></h3>
-                    <div class="card-body">NEW CARS</div>
+                    <div class="card-body"><b>NEW CARS</b></div>
                     <button  onclick="buy()" class="btn btn-danger" >Buy now</button>
                 </div>
             </div>
@@ -156,7 +157,7 @@
                 <div class="card">
                     <img src="assets/img/4.jpg" class="crad-img-top">
                     <h3 class="card-title text-warning "><b>Mercedes</b></h3>
-                    <div class="card-body">NEW CARS</div>
+                    <div class="card-body"><b>NEW CARS</b></div>
                     <button  onclick="buy()" class="btn btn-danger" >Buy now</button>
                 </div>
             </div>
@@ -164,13 +165,14 @@
                 <div class="card">
                     <img src="assets/img/6.webp" class="crad-img-top">
                     <h3 class="card-title text-primary "><b>Mercedes</b></h3>
-                    <div class="card-body">NEW CARS</div>
+                    <div class="card-body"><b>NEW CARS</b></div>
                     <button  onclick="buy()" class="btn btn-danger" >Buy now</button>
                 </div>
             </div>
         </div>
         </div>
-       
+
+      </tbody>
         <div class="bg-dark">
             <div id="call" class="footer pt-s pb-5 text-white-50 text-center text-md-start mt-4 ">
              <div class="container">
