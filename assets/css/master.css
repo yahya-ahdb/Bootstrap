@@ -17,8 +17,9 @@
 .con {
     position: relative;
     text-shadow: 7px 4px 4px black ;
-    height: 65vh;
-    background-image: url(../img/car1.webp);
+    height: 100vh;
+    width: 100%;
+    background-image: url(../img/family_cars_header.jpg);
     background-size: cover;
     
 }
